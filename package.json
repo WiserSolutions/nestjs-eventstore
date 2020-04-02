@@ -1,11 +1,11 @@
 {
-  "name": "@WiserSolutions/nestjs-eventstore",
+  "name": "@wisersolutions/nestjs-eventstore",
   "repository": {
     "type": "git",
-    "url": "git@github.com:WiserSolutions/nestjs-eventstore.git"
+    "url": "git@github.com:wisersolutions/nestjs-eventstore.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
+    "registry": "https://npm.pkg.github.com/@wisersolutions",
     "access": "public"
   },
   "version": "1.4.15",
