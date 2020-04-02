@@ -13,8 +13,9 @@ jobs:
       with:
         node-version: '10.x'
         registry-url: 'https://npm.pkg.github.com'
+        registry: 'https://npm.pkg.github.com'
         scope: '@WiserSolutions' # Defaults to the user or organization that owns the workflow file
     - run: npm install
-    - run: npm publish --access public
+    - run: npm publish --access public --registry 'https://npm.pkg.github.com'
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
