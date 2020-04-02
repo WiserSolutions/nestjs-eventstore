@@ -1,8 +1,15 @@
 {
-  "name": "nestjs-eventstore",
-  "version": "1.4.14",
-  "description": "Event Store connector for Nest js",
-  "author": "Taimoor Alam <taimoor.alam@daypaio.com>",
+  "name": "@WiserSolutions/nestjs-eventstore",
+  "repository": {
+    "type": "git"
+    "url": "git@github.com:WiserSolutions/nestjs-eventstore.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "version": "1.4.15",
+  "description": "Event Store connector for Nest js, forked from Taimoor Alam <taimoor.alam@daypaio.com>",
+  "author": "Leo O'Donnell WiserSolutions",
   "license": "MIT",
   "readmeFilename": "README.md",
   "main": "dist/index.js",
