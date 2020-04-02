@@ -15,6 +15,6 @@ jobs:
         registry-url: 'https://npm.pkg.github.com'
         scope: '@octocat' # Defaults to the user or organization that owns the workflow file
     - run: npm install
-    - run: npm publish
+    - run: npm publish --access public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
