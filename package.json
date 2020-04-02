@@ -5,7 +5,8 @@
     "url": "git@github.com:WiserSolutions/nestjs-eventstore.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
   },
   "version": "1.4.15",
   "description": "Event Store connector for Nest js, forked from Taimoor Alam <taimoor.alam@daypaio.com>",
@@ -33,14 +34,7 @@
   "keywords": [
     "nestjs"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/daypaio/nestjs-eventstore"
-  },
-  "bugs": "https://github.com/daypaio/nestjs-eventstore/issues",
+  "bugs": "https://github.com/wisersolutions/nestjs-eventstore/issues",
   "peerDependencies": {
     "@nestjs/common": "^6.0.0",
     "@nestjs/core": "^6.0.0",
