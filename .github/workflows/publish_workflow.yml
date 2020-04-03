@@ -14,9 +14,6 @@ jobs:
         node-version: '10.x'
         scope: '@wisersolutions' # Defaults to the user or organization that owns the workflow file
     - run: npm install
-    - run: echo $NODE_AUTH_TOKEN
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     - run: npm publish --access public
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        NODE_AUTH_TOKEN: a7329429-e95e-4703-b706-f9814e62ccc5
