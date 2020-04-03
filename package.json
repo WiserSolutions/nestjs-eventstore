@@ -5,7 +5,6 @@
     "url": "git@github.com:wisersolutions/nestjs-eventstore.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@wisersolutions",
     "access": "public"
   },
   "version": "1.4.16",
