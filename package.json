@@ -6,9 +6,9 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/wisersolutions"
+    "registry": "https://npm.pkg.github.com/"
   },
-  "version": "1.4.17",
+  "version": "1.4.18",
   "description": "Event Store connector for Nest js, forked from Taimoor Alam <taimoor.alam@daypaio.com>",
   "author": "Leo O'Donnell WiserSolutions",
   "license": "MIT",
