@@ -5,9 +5,10 @@
     "url": "git@github.com:wisersolutions/nestjs-eventstore.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/wisersolutions"
   },
-  "version": "1.4.16",
+  "version": "1.4.17",
   "description": "Event Store connector for Nest js, forked from Taimoor Alam <taimoor.alam@daypaio.com>",
   "author": "Leo O'Donnell WiserSolutions",
   "license": "MIT",
