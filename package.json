@@ -8,7 +8,7 @@
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
-  "version": "1.4.18",
+  "version": "1.4.19",
   "description": "Event Store connector for Nest js, forked from Taimoor Alam <taimoor.alam@daypaio.com>",
   "author": "Leo O'Donnell WiserSolutions",
   "license": "MIT",
